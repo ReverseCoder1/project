@@ -1,0 +1,89 @@
+#hero{
+    height: 800px;
+    background-image: url(/tourism\ website/photos/explore.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#hero_content{
+    width: 900px;
+    background-color: rgba(51, 47, 47,0.8);
+    box-shadow: 2px 4px 8px  rgb(67, 61, 61);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+}
+#hero_content h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Raleway",sans-serif;
+    margin: 0px;
+    text-transform: uppercase;
+}
+#hero_content p{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+#hero_content a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(253, 253, 62);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(67, 61, 61);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 12px 24px;
+}
+#hero_content a:hover{
+    background-color: yellow;
+}
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#highlight{
+    padding: 24px;
+    background: linear-gradient(0deg,rgb(227,255,253),rgb(202,243,240));
+}
+#highlight h2{
+    font-size: 40px;
+    color: rgb(59,65,64);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 24px 0px;
+}
+.destination img{
+    width: 450px;
+    height: auto;
+    box-shadow: 2px 4px 8px rgb(67, 61, 61);
+    border-radius: 8px;
+}
+.destination img:hover{
+    transition: transform 1s;
+    transform: translateY(-5px);
+}
+.destination{
+    margin: 0px 20px;
+    text-transform: uppercase;
+}
+.destination strong{
+    color: rgb(0,160,117);
+}
+.destination p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124,123,123);
+}
+#img1 img{
+    height: 250.2px;
+}
+#img2 img{
+    height: 250.2px;
+}
